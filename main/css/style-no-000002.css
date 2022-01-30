@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    background: url(../triangles-1430105__480.png) no-repeat fixed;
+    background-size: cover;
+}
+
+
+.card .box{
+    border: none;
+    width: 34.24em;
+    height: 21.56em;
+    border-radius: 3.48mm;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background: url(../triangles-1430105__480.png);
+    background-size: cover;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.39);
+}
+
+.card .box:hover{
+    filter: brightness(95%) blur(0.80px);
+    transition: .3s;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+}
+
+.card{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+}
+
+.card .box .one-line{
+    display: flex;
+}
+
+.card .box .logo img{
+    width: 200px;
+}
+
+.card .box .logo img:hover{
+    width: 210px;
+    transition: .3s;
+    filter: brightness(120%) blur(2px);
+}
+
+.card .box .logo{
+    float: right;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.card .box .name{
+    padding-top: 28%;
+    padding-left: 3%;
+}
+
+.card .box .name p{
+    font-size: 35px;
+}
+
+.card .box .name p:hover{
+    font-size: 40px;
+    color: white;
+    transition: .3s;
+}
+
+.card .box .card-no{
+    padding-left: 3%;
+}
+
+.card .box .card-no h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.card .box .card-no h1:hover{
+    font-size: 50px;
+    color: white;
+    transition: .3s;
+}
+
+
+.card .box .one-line .date{
+    padding-left: 3%;
+}
+
+.card .box .one-line .date h2{
+    font-size: 26px;
+}
+
+.card .box .one-line .date h2:hover{
+    font-size: 30px;
+    transition: .3s;
+    color: white;
+}
+
+.card .box .one-line .cvv{
+    padding-left: 60%;
+}
+
+.card .box .one-line .cvv h3{
+    font-size: 25px;
+}
+
+.card .box .one-line .cvv h3:hover{
+    font-size: 30px;
+    transition: .3s;
+    color: white;
+}
